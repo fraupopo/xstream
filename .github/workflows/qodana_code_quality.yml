@@ -18,6 +18,6 @@ jobs:
         env:
             QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
         with:
-            args: "--linter,jetbrains/qodana-jvm:2023.2-eap"
+            args: "--linter,jetbrains/qodana-jvm:2023.3"
             pr-mode: false
 
